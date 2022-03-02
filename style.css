@@ -2,3 +2,16 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
 }
+
+a:link, a:visited {
+    background-color: #096b32;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(4, 56, 28);
+  }
