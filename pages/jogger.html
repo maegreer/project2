@@ -8,11 +8,20 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <p>a jogger runs toward you. they are not dressed for running and seem very frightened. 
+    <p id="text">a jogger runs toward you. they are not dressed for running and seem very frightened. 
     you ask what happened and find out that the cemetery is haunted. 
     you decide this is a good time to leave and head home.</p>
 
-    <a href="backinside.html">go back home</a>
+    <a href="backinside.html" id="link">go back home</a>
     
 </body>
 </html>
+
+<script>
+    pValue=document.getElementById("text").innerHTML
+        console.log(pValue)
+        
+    aValue=document.getElementById("link").innerHTML
+        console.log(aValue)
+    
+    </script>

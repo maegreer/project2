@@ -8,10 +8,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>you have been working all morning and it's time to get out of the house.
+    <p id="text" /*onclick="changeText()"*/>you have been working all morning and it's time to get out of the house.
      let's take a break by going for a walk.</p>
     
-     <a href="pages/opendoor.html">open the door</a>
+     <a href="pages/opendoor.html" id="link">open the door</a>
     
 </body>
 </html>
+
+<script>
+
+    console.log("Welcome to my website!");
+
+    /*function changeText(){
+        newText="open the door";
+        document.getElementById("text").innerHTML=newText;
+    };
+
+    function showMessage(message2Print){
+    console.log(message2Print)
+    }; 
+
+    console.log(window.document.all)
+
+    console.log(window.document.p)*/
+
+    pValue=document.getElementById("text").innerHTML
+    console.log(pValue)
+
+    aValue=document.getElementById("link").innerHTML
+    console.log(aValue)
+
+    </script>

@@ -8,13 +8,24 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <p>you walk through the iron gates. the rows of headstones stretch over the hill and out of sight. 
+    <p id="text">you walk through the iron gates. the rows of headstones stretch over the hill and out of sight. 
     up ahead there is a funaral taking place. 
     besides the mourners there are some people walking around and a few joggers.
     to your left is an impresive looking statue.</p>
 
-    <a href="statue.html">look at statue</a>
-    <a href="jogger.html">chat with jogger</a>
+    <a href="statue.html" id="link">look at statue</a>
+    <a href="jogger.html" id="linkb">chat with jogger</a>
     
 </body>
 </html>
+
+<script>
+    pValue=document.getElementById("text").innerHTML
+        console.log(pValue)
+        
+    aValue=document.getElementById("link").innerHTML
+        console.log(aValue)
+    
+    bValue=document.getElementById("linkb").innerHTML
+        console.log(bValue)
+</script>

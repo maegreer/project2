@@ -8,12 +8,27 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <p>you walk a few blocks and come to a busy street. there is a mcdonalds and a 7-11 across the street, but on your side is a cemetery. 
+    <p id="text">you walk a few blocks and come to a busy street. there is a mcdonalds and a 7-11 across the street, but on your side is a cemetery. 
     you are a little thirsty but the cemetery does look like a nice place to walk. </p>
 
-    <a href="7-11.html">go to 7-11</a>
-    <a href="mcdonalds.html">go to mcdonalds</a>
-    <a href="cemetery.html">go visit the cemetery</a>
+    <a href="7-11.html" id="link">go to 7-11</a>
+    <a href="mcdonalds.html" id="linkb">go to mcdonalds</a>
+    <a href="cemetery.html" id="linkc">go visit the cemetery</a>
     
 </body>
 </html>
+
+<script>
+    pValue=document.getElementById("text").innerHTML
+        console.log(pValue)
+        
+    aValue=document.getElementById("link").innerHTML
+        console.log(aValue)
+
+    bValue=document.getElementById("linkb").innerHTML
+        console.log(bValue)
+
+    cValue=document.getElementById("linkc").innerHTML
+        console.log(cValue)
+    
+    </script>

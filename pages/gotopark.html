@@ -8,15 +8,27 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <p>you wave at your neighboor and head into the park. 
+    <p id="text">you wave at your neighboor and head into the park. 
     the grass is a blanket of green spotted with dandylions.
     you have the park to yourself and head to the playground equipment.
 
     </br>
     
-    <a href="swings.html">go to swings</a>
-    <a href="slide.html">go to slide</a>
+    <a href="swings.html" id="link">go to swings</a>
+    <a href="slide.html" id="linkb">go to slide</a>
 
     </p>
 </body>
 </html>
+
+<script>
+    pValue=document.getElementById("text").innerHTML
+        console.log(pValue)
+        
+    aValue=document.getElementById("link").innerHTML
+        console.log(aValue)
+
+    bValue=document.getElementById("linkb").innerHTML
+        console.log(bValue)
+    
+    </script>

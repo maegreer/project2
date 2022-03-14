@@ -8,9 +8,25 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <p>you walk down the driveway and look up and down the block. the sun is shining.</p>
-    <a href="backinside.html">go back inside</a>
-    <a href="goeast.html">go east</a>
-    <a href="gowest.html">go west</a>
+    <p id="text">you walk down the driveway and look up and down the block. the sun is shining.</p>
+    <a href="backinside.html" id="link">go back inside</a>
+    <a href="goeast.html" id="linkb">go east</a>
+    <a href="gowest.html" id="linkc">go west</a>
 </body>
 </html>
+
+<script>
+     pValue=document.getElementById("text").innerHTML
+    console.log(pValue)
+
+    aValue=document.getElementById("link").innerHTML
+    console.log(aValue)
+
+    bValue=document.getElementById("linkb").innerHTML
+    console.log(bValue)
+
+    cValue=document.getElementById("linkc").innerHTML
+    console.log(cValue)
+
+
+</script>

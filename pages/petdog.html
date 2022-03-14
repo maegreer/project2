@@ -8,12 +8,21 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <p>you pet the dog before asking your neighboor.
+    <p id="text">you pet the dog before asking your neighboor.
     you must have scared the dog because it bites you and draws blood. 
     your neighbor apologises and says you should probably get that checked out. 
     they offer to drive you to the hospital, but you decline and head home to clean up.</p>
 
-    <a href="backinside.html">go back home</a>
+    <a href="backinside.html" id="link">go back home</a>
     
 </body>
 </html>
+
+<script>
+    pValue=document.getElementById("text").innerHTML
+        console.log(pValue)
+        
+    aValue=document.getElementById("link").innerHTML
+        console.log(aValue)
+    
+    </script>
